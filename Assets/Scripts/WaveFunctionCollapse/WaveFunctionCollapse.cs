@@ -113,6 +113,9 @@ public class WaveFunctionCollapse : MonoBehaviour
     }*/
 
     private bool functionCollapse(Tile[][] grid,Queue<Tile> collapseQueue,int iterations){
+        // -----------------------------------
+        return false;
+        // -----------------------------------
         bool finished = false;
         Tile[][] gridCopy = cloneMatrix(grid);
         while(!finished && iterations < 1000){
